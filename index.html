@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DOM adel abidi</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script> -->
+</head>
+
+<body>
+  <!-- header -->
+  <header id="header">
+    <div class="title">
+       Shopping Bag
+    </div>
+    <!-- /Block search module TOP -->
+    <div class="blockcart cart-preview dropdown js-dropdown"
+      data-refresh-url="//www.tuttosport.com.tn/module/ps_shoppingcart/ajax">
+      <div class="header" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+        role="button">
+        <a rel="nofollow" href="#" onclick="fdropdown()">
+          
+          <span class="item_total">0</span>
+        </a>
+      </div>
+      <div class="body dropdown-menu"  >
+        <ul>
+          
+        </ul>
+        <div class="price_content">
+          <div class="cart-subtotals">
+            <div class="products price_inline">
+              <span class="label">Sous-total</span>
+              <span class="value">0 TND</span>
+            </div>
+            <div class=" price_inline">
+              <span class="label"></span>
+              <span class="value"></span>
+            </div>
+            <div class="shipping price_inline">
+              <span class="label">Livraison</span>
+              <span class="value">6,00 TND</span>
+            </div>
+            <div class=" price_inline">
+              <span class="label"></span>
+              <span class="value"></span>
+            </div>
+          </div>
+          <div class="cart-total price_inline">
+            <span class="label">Total</span>
+            <span class="value">0 TND</span>
+          </div>
+        </div>
+        <div class="checkout">
+          <a href="#" class="btn btn-primary">checkout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- main -->
+  <main>
+    <div class="shopping-cart">
+      <!-- Title -->
+      <div class="title">
+        <div> Shopping Bag</div>
+        <div class="products price_inline">
+          <span class="label"><b>Sous-total</b></span>
+          <span class="value">0 TND</span>
+        </div>
+      </div>
+
+      <!-- Product #1 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+
+        <div class="image">
+          <img src="./res/images/icons/item-1.png" alt="" />
+        </div>
+
+        <div class="description">
+          <span>Common Projects</span>
+          <span>Bball High</span>
+          <span>White</span>
+        </div>
+        <div class="unit-price">549 TND</div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button" >
+            <img src="./res/images/icons/plus.svg" alt="" />
+          </button>
+          <input type="text" name="name" value="0">
+          <button class="minus-btn" type="button" name="button" >
+            <img src="./res/images/icons/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="total-price">0 TND</div>
+        <div>
+        <button class="btn btn-primary add-to-cart" data-button-action="add-to-cart" type="submit"  >
+          Ajouter au panier
+        </button>
+      </div>
+      </div>
+
+      <!-- Product #2 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+
+        <div class="image">
+          <img src="./res/images/icons/item-2.png" alt="" />
+        </div>
+
+        <div class="description">
+          <span>Maison Margiela</span>
+          <span>Future Sneakers</span>
+          <span>White</span>
+        </div>
+        <div class="unit-price">870 TND</div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button" >
+            <img src="./res/images/icons/plus.svg" alt="" />
+          </button>
+          <input type="text" name="name" value="0" >
+          <button class="minus-btn" type="button" name="button">
+            <img src="./res/images/icons/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="total-price">0 TND</div>
+        <div>
+          <button class="btn btn-primary add-to-cart" data-button-action="add-to-cart" type="submit" >
+            Ajouter au panier
+          </button>
+        </div>
+      </div>
+
+      <!-- Product #3 -->
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn" ></span>
+          <span class="like-btn" ></span>
+        </div>
+
+        <div class="image">
+          <img src="./res/images/icons/item-3.png" alt="" />
+        </div>
+
+        <div class="description">
+          <span>Our Legacy</span>
+          <span>Brushed Scarf</span>
+          <span>Brown</span>
+        </div>
+        <div class="unit-price">349 TND</div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button" >
+            <img src="./res/images/icons/plus.svg" alt="" />
+          </button>
+          <input type="text" name="name" value="0" >
+          <button class="minus-btn" type="button" name="button">
+            <img src="./res/images/icons/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="total-price">0 TND</div>
+        <div>
+          <button class="btn btn-primary add-to-cart" data-button-action="add-to-cart" type="submit" >
+            Ajouter au panier
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer>
+
+  </footer>
+  <script type="text/javascript" src="js.js">
+
+  </script>
+</body>
